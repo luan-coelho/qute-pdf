@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pr_br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pessoas</title>
+</head>
+<body>
+{#if message != null}
+    <div>
+        <span>{message}</span>
+    </div>
+{/if}
+
+{#if ! persons.isEmpty}
+    <h2>Listagem de Pessoas</h2>
+    {#for person in persons}
+        {person.name}
+    {/for}
+{/if}
+
+<h2>Formulário de Pessoa</h2>
+<form id="person-form" method="post">
+    <label for="name">Nome:</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="surname">Sobrenome:</label><br>
+    <input type="text" id="surname" name="surname"><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="cpf">CPF:</label><br>
+    <input type="text" id="cpf" name="cpf"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<script src="/static/js/index.js"></script>
+</body>
+</html>

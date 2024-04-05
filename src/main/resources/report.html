@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <title>Relação de Serventias Extrajudiciais</title>
+    <style>
+        @page {
+            size: A4 landscape;
+            margin: 120px 25px 30px 25px; /* Topo, direita, inferior, esquerda */
+
+            @top-center {
+                content: element(header);
+            }
+
+            @bottom-right {
+                content: "Página " counter(page) " de " counter(pages);
+            }
+        }
+
+        header {
+            position: running(header); /* Define o cabeçalho para ser reutilizado */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .cabecalho {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            display: table-header-group;
+        }
+
+        .cabecalho td {
+            text-align: left;
+        }
+
+        .cabecalho th,
+        .cabecalho td {
+            border: 2px solid black;
+        }
+
+        .brasao div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brasao-imagem {
+            width: 65px;
+            height: 65px;
+        }
+
+        .poderes div {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .data-emissao p {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        .descricao {
+            font-weight: 100;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table th,
+        .table td {
+            border: 2px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+<!--<header>Este é o Cabeçalho Comum</header>-->
+
+<header id="header">
+    <table class="cabecalho">
+        <tr>
+            <td class="brasao">
+                <div>
+                    <img
+                            class="brasao-imagem"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bras%C3%A3o_do_Tocantins.svg/1200px-Bras%C3%A3o_do_Tocantins.svg.png"
+                            alt="Brasão"
+                    />
+                </div>
+            </td>
+
+            <td class="poderes">
+                <div>
+                    <span>Poder Judiciário do Estado do Tocantins</span>
+
+                    <span>Corregedoria Geral da Justiça</span>
+
+                    <span>Divisão de Inspetoria, Fiscalização e Informática</span>
+                </div>
+            </td>
+            <td class="data-emissao"><p>Data de Emissão 29/01/2024</p></td>
+        </tr>
+    </table>
+</header>
+
+<main>
+    <h3 class="descricao">
+        Relação de Serventias Extrajudiciais - Posição em 29/01/2024
+    </h3>
+
+    <table style="repeat-header: yes; repeat-footer: yes;" class="table">
+        <thead>
+        <tr>
+            <th>CNS - Serventia</th>
+            <th>Situação - CNJ</th>
+            <th>Situação - TJ</th>
+            <th>Lei de Criação/Previsão</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        <tr>
+            <td>126805 - Serviço de Registro Civil das Pessoas Naturais Interdições e Tutelas</td>
+            <td>Provido</td>
+            <td>Provida em Caráter Efetivo (concursado)</td>
+            <td>Lei nº 9.129 de 22/12/1981- Anexo XI - Código de Goiás - Publicada no Diário Oficial em 04/01/1982</td>
+        </tr>
+        </tbody>
+    </table>
+</main>
+</body>
+</html>
